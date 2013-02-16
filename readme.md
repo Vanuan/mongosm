@@ -15,10 +15,9 @@ Installation
 
 1. Grab MongoDB 1.9+ (2.0 is best) from http://mongodb.org/.
 2. Unpack mongodb and run it.
-3. Install pymongo. (http://api.mongodb.org/python/current/installation.html)
+3. Install dependencies with pybuilder: `sudo pyb install_dependencies`
 4. Grab some OSM XML data.
 5. Run `python insert_osm_data.py <OSM filename>` and wait.
-6. Install Werkzeug.
-7. Run `python map_server.py`
-8. Browse to http://localhost:5000/api/0.6/node/1 to verify a (probably empty)
+6. Run `python map_server.py`
+7. Browse to http://localhost:5000/api/0.6/node/1 to verify a (probably empty)
    response.
